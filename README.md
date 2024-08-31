@@ -1,10 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carpooling App
+
+This Carpooling App is built with Next.js 14 and TypeScript, utilizing MongoDB for data storage. The app allows users to search for carpool rides, view ride details, and book seats. It's designed to make carpooling easy and accessible for users, connecting drivers and passengers.
+
+## Features
+
+- **Search Rides:** Users can search for available rides based on their departure and destination locations, as well as the travel date.
+- **View Ride Details:** Each ride has a detailed view displaying the route, date, price per seat, available seats, and driver information.
+- **Book a Ride:** Users can book a seat on the ride they choose.
+- **Responsive Design:** The app is fully responsive and works on all devices.
+
+## Technologies Used
+
+- **[Next.js 14](https://nextjs.org/):** A React framework for building fast, scalable web applications.
+- **[TypeScript](https://www.typescriptlang.org/):** A statically typed superset of JavaScript, providing better tooling and error checking.
+- **[MongoDB](https://www.mongodb.com/):** A NoSQL database used to store ride and user information.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for styling the application.
+- **[Lucide React](https://lucide.dev/):** Icon library for easily adding SVG icons to React applications.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js v16 or later
+- npm or yarn
+- MongoDB
+
+### Installation
+
+1. **Clone the repository:**
 
 ```bash
+   git clone https://github.com/yourusername/carpooling-app.git
+   cd carpooling-app
+npm install
+
 npm run dev
 # or
 yarn dev
@@ -16,21 +47,3 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
